@@ -112,21 +112,24 @@ body::-webkit-scrollbar-thumb {
   .nav-item {
     display: block; } }
 
-@media (max-width: 380px) {
+@media (max-width: 430px) {
   aside {
     display: none; }
+  body {
+    background: #161616; }
   .container-vid {
     margin: 0;
-    background: #161616; }
+    background: #161616;
+    border: none; }
     .container-vid .cards {
       display: inline; }
       .container-vid .cards .card {
-        margin-left: 0.35rem; }
+        margin-left: 1.5rem; }
         .container-vid .cards .card .thumbnail {
-          width: 35rem;
+          width: 38rem;
           height: 20rem; }
         .container-vid .cards .card .info {
-          margin-left: 1rem; }
+          margin-left: 1.5rem; }
           .container-vid .cards .card .info-vid {
             display: flex;
             margin-bottom: 0.5rem; }
