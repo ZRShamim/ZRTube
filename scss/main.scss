@@ -165,3 +165,66 @@ body::-webkit-scrollbar-thumb {
     }
   }
 }
+
+@media (max-width: 500px) {
+  .nav-item {
+    display: block;
+  }
+}
+
+@media (max-width: 380px) {
+  aside {
+    display: none;
+  }
+
+  .container {
+    &-vid {
+      margin: 0;
+      background: rgb(22, 22, 22);
+
+      .cards {
+        display: inline;
+
+        .card {
+          margin-left: 0.35rem;
+
+          .thumbnail {
+            width: 35rem;
+            height: 20rem;
+          }
+
+          .info {
+            margin-left: 1rem;
+            &-vid {
+              display: flex;
+              margin-bottom: 0.5rem;
+              .user-img {
+                width: 3rem;
+                height: 3rem;
+                border-radius: 50%;
+              }
+
+              .title {
+                width: 25rem;
+                font-size: 1.5rem;
+                font-weight: 500;
+                color: rgb(241, 241, 241);
+              }
+            }
+
+            &-chanel {
+              display: flex;
+              padding-left: 4rem;
+
+              p {
+                font-size: 1.3rem;
+                color: rgb(158, 158, 158);
+                margin-right: 0.35rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
