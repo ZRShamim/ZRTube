@@ -110,7 +110,9 @@ body::-webkit-scrollbar-thumb {
 
 @media (max-width: 500px) {
   .nav-item {
-    display: block; } }
+    display: block; }
+  body {
+    background: blue; } }
 
 @media (max-width: 430px) {
   aside {
